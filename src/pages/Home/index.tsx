@@ -31,8 +31,10 @@ const Home: React.FC = () => {
           <img src="https://sc04.alicdn.com/kf/H7e00c0b1e3b84124846d81aef2f35a88b.jpg" alt=""/>
           <div className="wrapper-info-content">
             <p>A PRÓXIMA GERAÇÃO DE <br/> WIRELESS</p>
-            <span>A vida é mais divertida com wireless. <br/>O MELHOR áudio sem fio a partir de $150</span>
-            <Button>COMPRAR AGORA!</Button>
+            <span>A vida é mais divertida com wireless. <br/>O MELHOR áudio sem fio a partir de $165</span>
+            <a href="#produtos">
+              <Button>COMPRAR AGORA!</Button>
+            </a>
           </div>
         </div>
         
@@ -48,14 +50,16 @@ const Home: React.FC = () => {
         </div>
         
         <div className="wrapper-scroll-down">
-          <Lottie 
-            options={defaultOptions}
-            height={60}
-            width={30}
-          />
+          <a href="#info-produto">
+            <Lottie 
+              options={defaultOptions}
+              height={60}
+              width={30}
+            />
+          </a>
         </div>
       </Content>
-      <InfoProduct>
+      <InfoProduct id="info-produto">
         <div className="product-about">
           <div className="card">
             <h1>TWS L21 PRO Wireless Earbuds</h1>
@@ -105,7 +109,9 @@ const Home: React.FC = () => {
         </div>
       </FeaturesProduct>
       <VideoProduct>
-        <Button>COMPRAR AGORA!</Button>
+        <a href="#produtos">
+          <Button>COMPRAR AGORA!</Button>
+        </a>
         <img src="https://cdn.shopify.com/s/files/1/2013/4953/files/20.png?v=1603898953" alt=""/>
         <svg height="0" width="0">
           <defs>
@@ -126,18 +132,22 @@ const Home: React.FC = () => {
           </defs>
         </svg>
       </VideoProduct>
-      <Products>
+      <Products id="produtos">
         <div className="card-product">
-          <p>R$ <span>150</span>,00</p>
+          <p>R$ <span>165</span>,00</p>
           <img src="https://sc04.alicdn.com/kf/H7e00c0b1e3b84124846d81aef2f35a88b.jpg" alt=""/>
           <h4>TWS L21 PRO - Black</h4>
-          <button>COMPRAR <HiShoppingCart size={30}/></button>
+          <a href="https://gear-stores.pay.yampi.com.br/r/EQLX0SJ98Y">
+            <button>COMPRAR <HiShoppingCart size={30}/></button>
+          </a>
         </div>
         <div className="card-product">
-          <p>R$ <span>150</span>,00</p>
+          <p>R$ <span>165</span>,00</p>
           <img src="https://sc04.alicdn.com/kf/Hc15f5374dd4f4cc49bf364bc610dd43bB.jpg" alt=""/>
           <h4>TWS L21 PRO - White</h4>
-          <button>COMPRAR <HiShoppingCart size={30}/></button>
+          <a href="https://gear-stores.pay.yampi.com.br/r/K5YBQLJ1T7">
+            <button>COMPRAR <HiShoppingCart size={30}/></button>
+          </a>
         </div>
       </Products>
       <Footer/>

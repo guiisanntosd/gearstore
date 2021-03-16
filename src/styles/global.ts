@@ -11,6 +11,10 @@ export default createGlobalStyle`
     outline: none;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
@@ -18,6 +22,7 @@ export default createGlobalStyle`
 
   a {
     color: inherit;
+    text-decoration: none;
   }
 
   a:hover {
