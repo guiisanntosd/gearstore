@@ -134,7 +134,7 @@ const Home: React.FC = () => {
       </VideoProduct>
       <Products id="produtos">
         <div className="card-product">
-          <p>R$ <span>165</span>,00</p>
+          <p>R$<span>165</span>,00</p>
           <img src="https://sc04.alicdn.com/kf/H7e00c0b1e3b84124846d81aef2f35a88b.jpg" alt=""/>
           <h4>TWS L21 PRO - Black</h4>
           <a href="https://gear-stores.pay.yampi.com.br/r/EQLX0SJ98Y">
@@ -142,7 +142,7 @@ const Home: React.FC = () => {
           </a>
         </div>
         <div className="card-product">
-          <p>R$ <span>165</span>,00</p>
+          <p>R$<span>165</span>,00</p>
           <img src="https://sc04.alicdn.com/kf/Hc15f5374dd4f4cc49bf364bc610dd43bB.jpg" alt=""/>
           <h4>TWS L21 PRO - White</h4>
           <a href="https://gear-stores.pay.yampi.com.br/r/K5YBQLJ1T7">
